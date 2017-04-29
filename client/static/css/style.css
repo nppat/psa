@@ -26,24 +26,22 @@ body {
 			background-color: #ffeead; /* canvas */
 			background: url('/static/img/keyboard.jpg') no-repeat center center;
 	        background-size: cover;
-			height: 50rem;
+			height: 60rem;
 		}
 		#main_content {
-			background-color: #ff6f69; /* reddish */
+			background-color: #c0c5ce;
+			/*background-color: #ff6f69; /* reddish */*/
 			height: 50%;
 		}
 			#main_content>p {
 				padding: 0 2.5%;
 			}
 		#nav-tabs {
-			background-color: #ffcc5c; /* orangeish */
-		}
-		footer {
-			background-color: #88d8b0; /* Fender seafoam */
+			background-color: #fff; /* orangeish */
 		}
 /* *************************** Navbar *********************************** */
 .navbar {
-	background-color: #96ceb4; /* seafoam green */
+	/*background-color: #96ceb4; /* seafoam green */*/
 	border: none;
 	margin: 0;
 }
@@ -66,10 +64,21 @@ text-align: center;
 footer {
   padding-top: 1%;
   height: 10%;
+  /*background-color: #88d8b0; /* Fender seafoam */*/
+}
+.footer {
+  color: #4f5b66;
+  background-color: #1b1b1b;
+  background-image: -moz-linear-gradient(top, #222222, #111111);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#111111));
+  background-image: -webkit-linear-gradient(top, #222222, #111111);
+  background-image: -o-linear-gradient(top, #222222, #111111);
+  background-image: linear-gradient(to bottom, #222222, #111111);
+  background-repeat: repeat-x;
+  border-color: #252525;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
 }
 /* ******************************************** Font Sizing ********************************************* */
-
-
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
