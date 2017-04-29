@@ -1,28 +1,65 @@
-<div class="">
-    <nav class='navbar navbar-default navbar-fixed-top'>
-        <div class="container-fluid">
-            <div class='navbar-header'>
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-		            <span class="sr-only">Toggle navigation</span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		        </button>
-		    <!-- <a class="navbar-brand"></a> -->
-		    </div>
-	        <div id="navbar" class="navbar-collapse collapse">
-	        	<ul class="nav navbar-nav navbar-right">
-	            	<li><a href="#"><span class='fa fa-twitter fa-lg'></span></a></li>
-                    <li><a href="#"><span class='glyphicon glyphicon-envelope'></span></a></li>
-                    <li><a href="#"><span class='fa fa-linkedin fa-lg'></span></a></li>
-                    <li><a href="#"><span class='fa fa-github fa-lg'></span></a></li>
-	        	</ul>
-            </div> <!-- navbar collapse -->
-        </div><!-- container-fluid -->
-    </nav>
-    <div class="">
-
-    </div>
-    <footer>
-    </footer>
-</div>
+<nav class='navbar navbar-default navbar-fixed-top'>
+    <div class="container-fluid">
+        <div class='navbar-header'>
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	        </button>
+	    <a class="navbar-brand">Patrick Adamson | Web Developer</a>
+	    </div>
+        <div id="navbar" class="navbar-collapse collapse">
+        	<ul class="nav navbar-nav navbar-right" id='navbar-right'>
+            	<li><a href="https://twitter.com/pat_adamson"><span class='fa fa-twitter fa-lg'></span></a></li>
+                <li><a href="mailto:patricksadamson@gmail.com"><span class='glyphicon glyphicon-envelope'></span></a></li>
+                <li><a href="https://www.linkedin.com/in/patricksadamson/"><span class='fa fa-linkedin fa-lg'></span></a></li>
+                <li><a href="https://github.com/nppat"><span class='fa fa-github fa-lg'></span></a></li>
+        	</ul>
+        </div> <!-- navbar collapse -->
+    </div><!-- container-->
+</nav>
+<div class="container-fluid">
+    <div class="row row_container text-center" id="header">
+        <h1>Patrick Adamson</h1>
+        <h2>Web Developer</h2>
+    </div> <!-- end #header -->
+    <div class="row row_container" id='main_content'>
+        <p class='text-center text-justify'>I can build your website or web application.  I specialize in MEAN stack development, with experience in  Python/Django as well.  When possible, I use Amazon Web Services (AWS) for hosting, as this keeps prices low for the client.  AWS products I have used in the past are EC2 servers, as well as S3 buckets and CloudFront.</p>
+    </div> <!-- end #main_content -->
+    <div class='row row_container' id='nav-tabs'>
+        <ul class="nav nav-tabs">
+            <li class="active"><a class='a_size' data-toggle="tab" href="#websites">Websites</a></li>
+            <li><a  class='a_size' data-toggle="tab" href="#webapps">Web Apps</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="websites" class="tab-pane fade in active">
+                <p>
+                    <a class='a_size' href='https://www.watersportsunlimited.net'>Watersports Unlimited</a><br>
+                    A website built with Squarespace.  This saved the client time and money.  Squarespace is a great solution for an easy to setup and maintain web solution for any business.
+                </p>
+                <p>
+                    <a class='a_size'  href='http://www.martinhomeinspection.com'>Martin Home Inspection Services</a><br>
+                    This website was built using Twitter Bootstrap, AngularJS, and Express.  The site is hosted on Amazon EC2 servers.  Other Amazon products used include S3 and CloudFront for hosting images.  The use of Amazon Web Services keeps prices low for the client.
+                </p>
+                <p>
+                    <a  class='a_size' href='http://www.platteriverscubadivers.com'>Platte River Scuba Divers</a><br>
+                    This website was built using Twitter Bootstrap, AngularJS, and Express.  The client is a local diving club, and this was built as a volunteer project for them.  The site is hosted on Amazon EC2 servers.  Other Amazon products used include S3 and CloudFront for hosting images.
+                </p>
+            </div>
+            <div id="webapps" class="tab-pane fade">
+                <p>
+                    <a href='52.42.127.128'>Tour App</a><br>
+                    This web app is built with Twitter Bootstrap and the full MEAN stack (MongoDB, Express, Angular, and Node).  This app is designed for the touring professional as a reference guide for various venues and areas that might not have a lot of information published about them.  The user is able to view different venues and they are also able to update venue information as well as enter a new venue.  Venue is searchable.  Login is required.  Bcrypt is used for testing purposes as this app is still in development.
+                </p>
+                <p>
+                    <a href='#'>Homespec</a><br>
+                    This web app is built with Twitter Bootstrap and the full MEAN stack (MongoDB, Express, Angular, and Node).  That is all I can say about this app at this time.
+                </p>
+            </div>
+        </div>
+    </div> <!-- end #nav-tabs -->
+</div><!-- end .container-fluid -->
+<footer class='footer'>
+    <p class='text-center'>&copy; 2017</p>
+</footer>

@@ -1,30 +1,149 @@
-.main {
-	margin-top: 5%;
-}
-.welcome,
-.venue_form {
-	margin-bottom: 5%;
+*{
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
 }
 
-.search_bar,
-.add_venue {
-	margin-bottom: 3%;
+html {
+
 }
 
-.welcome h1 {
-	text-align: center;
+.row_container {
+    display: block;
+    min-width: 100%;
+    height: 100%;
+    padding: 100px 20px;
 }
 
-/* ************** .col-centered is for centering inputs and divs ******************* */
+body {
+	min-height: 100%;
+	padding-top: 50px;/*4.375em; /* ~70px to keep fixed navbar off body content */
+	}
+		#header {
+			color: #fff; /* white */
+			background-color: #ffeead; /* canvas */
+			background: url('/static/img/keyboard.jpg') no-repeat center center;
+	        background-size: cover;
+			height: 50rem;
+		}
+		#main_content {
+			background-color: #ff6f69; /* reddish */
+			height: 50%;
+		}
+			#main_content>p {
+				padding: 0 2.5%;
+			}
+		#nav-tabs {
+			background-color: #ffcc5c; /* orangeish */
+		}
+		footer {
+			background-color: #88d8b0; /* Fender seafoam */
+		}
+/* *************************** Navbar *********************************** */
+.navbar {
+	background-color: #96ceb4; /* seafoam green */
+	margin: 0;
+}
+.navbar .navbar-collapse {
+text-align: center;
+}
+
+/* *************************** Tabs *********************************** */
+#websites>p,
+#webapps>p {
+	margin-top: 1%;
+}
+/* *************************** .col-centered is for centering inputs and divs ***************************** */
 .col-centered {
-	margin: 0 auto;
 	float: none;
-}
-/************************************************************************************/
 
-/* ************** Login and Registration partials ******************* */
-#login_email, #login_password, #login_button, #first_name, #last_name,
-#username, #email, #password, #confirmPassword {
-	margin-bottom: 1%;
+	margin: 0 auto;
 }
-/************************************************************************************/
+/* *************************** Footer *************************** */
+footer {
+  padding-top: 1%;
+  height: 10%;
+}
+/* ******************************************** Font Sizing ********************************************* */
+
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	h1  {
+	  font-size: 3em;
+	}
+	h2 {
+	  font-size: 1.5em;
+	}
+	p {
+		line-height: 2;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	h1  {
+	  font-size: 4em;
+	}
+	h2 {
+	  font-size: 2em;
+	}
+	p {
+		line-height: 2;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	h1  {
+	  font-size: 4em;
+	}
+	h2 {
+	  font-size: 3em;
+	}
+	p {
+		line-height: 2;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	h1  {
+	  font-size: 5em;
+	}
+	h2 {
+	  font-size: 3.5em;
+	}
+	.a_size {
+		font-size: 1.5em;
+	}
+	p {
+		font-size: 1.5em;
+		line-height: 2;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	h1  {
+		font-size: 7em;
+	}
+	h2 {
+		font-size: 4.5em;
+	}
+	.a_size {
+		font-size: 1.75em;
+	}
+	p {
+		font-size: 1.75em;
+		line-height: 2;
+	}
+}
