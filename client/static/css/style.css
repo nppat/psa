@@ -6,10 +6,20 @@
   font-size: 16px;
 }
 
-html {
-
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 400px;
+    height: 250px;
+    background-color: lightgrey;
 }
 
+.flex-item {
+    background-color: cornflowerblue;
+    width: 75px;
+    height: 75px;
+    margin: auto;
+}
 .row_container {
     display: block;
     min-width: 100%;
